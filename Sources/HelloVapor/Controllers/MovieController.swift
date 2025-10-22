@@ -18,7 +18,7 @@ struct MovieController: RouteCollection {
     
     // MARK: - Route handler
     func handleUser(req: Request) async -> String {
-        return "Movie"
+        return "Movies"
     }
     
     func handleId(req: Request) async throws -> String {
